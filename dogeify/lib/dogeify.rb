@@ -5,7 +5,7 @@ class Dogeify
 	ADJECTIVES = %w (so such very much many).freeze
 	
 	def initialize
-		@tagge = EndTagger.new
+		@tagger = EndTagger.new
 	end
 	
 	def process (str)
